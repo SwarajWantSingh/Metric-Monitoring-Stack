@@ -1,0 +1,12 @@
+create vpc
+create subnets (one public and once private)
+   - associate them with vpc
+   - AZ
+   - CIDR
+   - subnet range
+
+NACL create
+create IGW for public
+create NAT gateway
+create  route tables if public route to IGW and if private to NAT gateway
+
